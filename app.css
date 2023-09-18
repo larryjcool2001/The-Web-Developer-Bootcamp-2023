@@ -1,0 +1,20 @@
+h2{
+    color: teal;
+    background-color: #FF5733;
+}
+
+button{
+    color: magenta;
+    background-color: cyan;
+}
+
+
+\\Background property differs from Background-color property stated above, they work in a similarly when applied but background is more powerful than\\
+p{
+    color: rgb(35, 236, 85);
+    background: orange;
+}
+
+body{
+    background-color: #c5e;
+}
