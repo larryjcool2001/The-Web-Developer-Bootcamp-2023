@@ -1,3 +1,23 @@
+h1{
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #FF5733 underline;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: Arial; Segoe ui, Futura;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 2;
+}
+
+
+
+
 h2{
     color: teal;
     background-color: #FF5733;
@@ -9,7 +29,7 @@ button{
 }
 
 
-\\Background property differs from Background-color property stated above, they work in a similarly when applied but background is more powerful than\\
+/*Background property differs from Background-color property stated above, they work in a similarly when applied but background is more powerful than*/
 p{
     color: rgb(35, 236, 85);
     background: orange;
@@ -17,4 +37,112 @@ p{
 
 body{
     background-color: #c5e;
+}
+
+
+/* Universal Selector */
+
+*{
+    background-color: cyan;
+}
+
+/* Element Selector */
+button{
+    font-size: 30px;
+}
+
+/* Multiple Element Selector */
+h1, h2 {
+    color: darkslateblue;
+}
+
+/* ID Selector */
+#signup{
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+/* Class Selector */
+span{
+    color: #457b9d;
+}
+
+/* Descendant Selector */
+
+span a{
+    color: red;
+}
+
+/* Adjacent Selector */
+
+h1 + p {
+    color: red;
+    background-color: blue;
+}
+
+/* Direct Child Selector */
+
+div > li {
+    color: white;
+}
+
+/* Attribute Selector */
+
+input [type="text"] {
+    width: 300px;
+    color: yellow;
+}
+
+
+/* or */
+
+input [type="password"] {
+    width: 300px;
+    color: greenyellow;
+}
+
+
+/* or */
+section[class="post"]{
+    background-color: purple;
+}
+
+/* or */
+section.post{
+    background-color: purple;
+}  
+
+
+a[href*="google"]{
+    color: magenta;
+}
+
+
+/* Pseudo Classes */
+button:hover{
+        background-color: red;
+        color: white;
+}
+
+/* or */
+
+.post button:hover{
+    background-color: red;
+    color: white;
+    text-decoration: underline;
+}
+
+/* or */
+.post a:hover{
+    text-decoration: underline;
+}
+
+/* or */
+.post button:active{
+    background-color: aqua;
+}
+
+/* or */
+.post:nth-of-type(3n){
+    background-color: #dfe8dc;
 }
