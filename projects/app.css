@@ -1,0 +1,11 @@
+/* WRITE YOUR CODE IN HERE!!!!  */
+.square {
+    width: 100px;
+    height: 100px;
+    Background-color: red;
+}
+
+ 
+.square:nth-of-type(2n){
+    background-color: black;
+}
