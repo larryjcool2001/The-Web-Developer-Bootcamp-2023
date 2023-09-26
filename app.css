@@ -146,3 +146,19 @@ button:hover{
 .post:nth-of-type(3n){
     background-color: #dfe8dc;
 }
+
+
+/* Pseudo Elements */
+
+h2::first-line{
+    font-size: 50px;
+}
+
+p::selection{
+    background-color: #FF5733;
+}
+
+button:hover{
+    background-color: olive;
+    font-size: 10;
+}
