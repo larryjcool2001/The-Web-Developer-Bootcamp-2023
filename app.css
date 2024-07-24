@@ -21,6 +21,7 @@ p{
 h2{
     color: teal;
     background-color: #FF5733;
+    font-weight: bold;
 }
 
 button{
@@ -64,7 +65,7 @@ h1, h2 {
 }
 
 /* Class Selector */
-span{
+. span{
     color: #457b9d;
 }
 
