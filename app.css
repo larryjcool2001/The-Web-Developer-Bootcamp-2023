@@ -71,8 +71,14 @@ h1, h2 {
 
 /* Descendant Selector */
 
-span a{
+span a{ 
     color: red;
+}
+
+/* or */
+
+footer a{
+    color: #457b9f;
 }
 
 /* Adjacent Selector */
@@ -80,6 +86,11 @@ span a{
 h1 + p {
     color: red;
     background-color: blue;
+}
+ /* or  */
+
+h1 + button {
+    background-color: pink;
 }
 
 /* Direct Child Selector */
@@ -152,6 +163,10 @@ button:hover{
 
 /* Pseudo Elements */
 
+h2::first-letter{
+    font-size: 50px;
+}
+
 h2::first-line{
     font-size: 50px;
 }
@@ -163,4 +178,19 @@ p::selection{
 button:hover{
     background-color: olive;
     font-size: 10;
+}
+
+
+/* CSS Cascade */
+
+h1, h2{
+    color: yellow;
+
+}
+
+
+/* Inline Styles & Important (Not advisabl to be used)*/
+
+button {
+    background-color: magenta; !important; 
 }
