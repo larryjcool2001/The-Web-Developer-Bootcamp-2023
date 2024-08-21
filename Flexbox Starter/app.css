@@ -3,6 +3,7 @@ body {
 }
 h1 {
     text-align: center;
+    padding-right: 50px;
 }
 #container {
     background-color: #003049;
