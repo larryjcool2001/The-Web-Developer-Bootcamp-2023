@@ -15,7 +15,7 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     align-items: flex-end;
     align-content: flex-end;
     
@@ -24,7 +24,7 @@ h1 {
 }
 
 #container div{
-    width: 200px;
+    width: 600px;
     height: 200px;
     text-align: center;
 }
