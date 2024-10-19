@@ -172,7 +172,7 @@ h2::first-line{
 }
 
 h3::first-line{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 p::selection{
@@ -188,7 +188,7 @@ button:hover{
 /* CSS Cascade */
 
 h1, h2{
-    color: Green;
+    color: yellow;
 
 }
 
