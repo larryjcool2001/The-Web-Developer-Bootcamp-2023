@@ -164,7 +164,7 @@ button:hover{
 /* Pseudo Elements */
 
 h2::first-letter{
-    font-size: 50px;
+    font-size: 20px;
 }
 
 h2::first-line{
