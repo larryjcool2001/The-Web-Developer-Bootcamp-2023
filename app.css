@@ -168,7 +168,7 @@ h2::first-letter{
 }
 
 h2::first-line{
-    font-size: 10px;
+    font-weight: 10px;
 }
 
 h3::first-line{
