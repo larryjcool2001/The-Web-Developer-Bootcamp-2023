@@ -164,7 +164,7 @@ button:hover{
 /* Pseudo Elements */
 
 h2::first-letter{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 h2::first-line{
@@ -181,7 +181,7 @@ p::selection{
 
 button:hover{
     background-color: gold;
-    font-size: 20;
+    font-size: 30;
 }
 
 
