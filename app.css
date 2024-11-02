@@ -164,7 +164,7 @@ button:hover{
 /* Pseudo Elements */
 
 h2::first-letter{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 h2::first-line{
@@ -172,7 +172,7 @@ h2::first-line{
 }
 
 h3::first-line{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 p::selection{
