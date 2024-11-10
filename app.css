@@ -176,7 +176,7 @@ h3::first-line{
 }
 
 p::selection{
-    background-color: #FF5733;
+    background-color: blue;
 }
 
 button:hover{
@@ -188,7 +188,7 @@ button:hover{
 /* CSS Cascade */
 
 h1, h2{
-    color: yellow;
+    color: green;
 
 }
 
