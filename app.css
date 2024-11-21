@@ -164,15 +164,15 @@ button:hover{
 /* Pseudo Elements */
 
 h2::first-letter{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 h2::first-line{
-    font-weight: 10px;
+    font-weight: 30px;
 }
 
 h3::first-line{
-    font-size: 20px;
+    font-size: 55px;
 }
 
 p::selection{
