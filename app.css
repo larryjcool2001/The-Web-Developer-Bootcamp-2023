@@ -172,7 +172,7 @@ h2::first-line{
 }
 
 h3::first-line{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 p::selection{
@@ -181,14 +181,14 @@ p::selection{
 
 button:hover{
     background-color: blue;
-    font-size: 30;
+    font-size: 20;
 }
 
 
 /* CSS Cascade */
 
 h1, h2{
-    color: magenta;
+    color: gold;
 
 }
 
