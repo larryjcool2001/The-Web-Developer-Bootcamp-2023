@@ -152,7 +152,7 @@ button:hover{
 
 /* or */
 .post button:active{
-    background-color: blue;
+    background-color: yellow;
     }
 
 /* or */
@@ -164,7 +164,7 @@ button:hover{
 /* Pseudo Elements */
 
 h2::first-letter{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h2::first-line{
