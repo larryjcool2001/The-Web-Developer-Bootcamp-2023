@@ -172,11 +172,11 @@ h2::first-line{
 }
 
 h3::first-line{
-    font-size: 20px;
+    font-size: 10px;
 }
 
 p::selection{
-    background-color: Yellow;
+    background-color: green;
 }
 
 button:hover{
