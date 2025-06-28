@@ -152,12 +152,12 @@ button:hover{
 
 /* or */
 .post button:active{
-    background-color: yellowgreen;
+    background-color: blue;
     }
 
 /* or */
 .post:nth-of-type(3n){
-    background-color: blue;
+    background-color: purple;
 }
 
 
