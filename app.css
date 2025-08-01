@@ -4,7 +4,7 @@ h1{
     text-decoration: #FF5733 underline;
     letter-spacing: 15px;
     font-size: 80px;
-    font-family: Arial; Segoe ui, Futura;
+    font-family: Arial; Segoe ui Futura;
 }
 
 a{
@@ -65,7 +65,7 @@ h1, h2 {
 }
 
 /* Class Selector */
-. span{
+. span {
     color: #457b9d;
 }
 
@@ -196,5 +196,5 @@ h1, h2{
 /* Inline Styles & Important (Not advisabl to be used)*/
 
 button {
-    background-color: magenta; !important; 
+    background-color: magenta; important; 
 }
