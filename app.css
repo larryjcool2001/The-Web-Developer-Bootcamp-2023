@@ -196,5 +196,5 @@ h1, h2{
 /* Inline Styles & Important (Not advisabl to be used)*/
 
 button {
-    background-color: magenta; important; 
+    background-color: magenta;
 }
