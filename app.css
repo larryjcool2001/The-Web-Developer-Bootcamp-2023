@@ -181,14 +181,14 @@ p::selection{
 
 button:hover{
     background-color: blue;
-    font-size: 20;
+    font-size: 30;
 }
 
 
 /* CSS Cascade */
 
 h1, h2{
-    color: gold;
+    color: red;
 
 }
 
